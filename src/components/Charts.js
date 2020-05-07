@@ -18,21 +18,7 @@ class Chart extends React.Component {
                         align: 'left'
                     },
                     colors: ['lightblue', 'red',],
-                    credits: {
-                        // enabled:false,
-                        text: 'code',
-                        href: 'https://github.com/divyansh1234/Tellius-Dashboard',
-                        // position:{
-                        //     align:'left',
-                        //     x:-100,
-
-                        // },
-                        // style:{
-                        //     fontSize:"15px",
-                        //     color:"red"
-                        // }
-
-                    },
+                    
                     xAxis: [{
                         categories: [...Data.map(i => i.date_time)],
                         crosshair: true
